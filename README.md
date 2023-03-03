@@ -2,7 +2,8 @@
 
 Designed KNN algorthim from scratch to classify Abalone age without using the existing libraries.
 
-### Dataset: The dataset of the project was obtained from the Department of Primary Industry and
+### Dataset: 
+The dataset of the project was obtained from the Department of Primary Industry and
 Fisheries, Tasmania, Australia, in the form of comma separated values. Which consists of 8
 parameters and a corresponding no. of rings for each data point.
 Furthermore, the data description provided states the following classes and the class boundaries
@@ -44,11 +45,13 @@ number of errors it generated. The minima of this graph would be the optimal val
 the least number of errors. For this algorithm, the dataset which was tested was the validation set
 of our main dataset consisting of 1177 datapoints. While the value of K ranged from 1 to 300.
 
-### Visulaization: From the visualization plots of our dataset, causes that can lead to the
+### Visulaization: 
+From the visualization plots of our dataset, causes that can lead to the
 inaccuracy in our classification models cab be defined. Below is a list of different plots which can be interpreted
 to show how the features of the intermediate class overlap the features of old class.
 
-### Results: From the results that was obtained, it can be told that the dataset has unequal number of data points
+### Results: 
+From the results that was obtained, it can be told that the dataset has unequal number of data points
 for each class which is a major reason for the varying inaccuracies in the classification model. The
 other major barrier is inseparable and overlapping data. In other words most of the old abalones
 and intermediate abalones exist in the similar region of the feature space so the classifier would
